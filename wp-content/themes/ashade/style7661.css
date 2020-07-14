@@ -1427,6 +1427,8 @@ header#ashade-header .ashade-header-inner {
 
 /* --- Logo --- */
 .ashade-logo {
+  padding: 10px 10px;
+  background-color: black;
   display: block;
   pointer-events: all;
 }
@@ -1440,6 +1442,7 @@ header#ashade-header .ashade-header-inner {
 }
 /* --- Navigation --- */
 .ashade-nav-block {
+  background-color: black;
   display: flex;
   flex-direction: row;
   pointer-events: all;
@@ -1447,7 +1450,6 @@ header#ashade-header .ashade-header-inner {
 nav.ashade-nav ul li a.ashade-aside-toggler.ashade-aside-toggler--icon {
   width: 29px;
   height: 29px;
-  opacity: 0.5;
   transition: opacity 0.3s;
 }
 nav.ashade-nav ul li a.ashade-aside-toggler.ashade-aside-toggler--icon:hover {
@@ -1510,7 +1512,7 @@ nav.ashade-nav ul li {
 }
 nav.ashade-nav ul li a {
   transition: color 0.3s;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   font-size: 12px;
   line-height: 29px;
   font-family: 'Montserrat', sans-serif;
